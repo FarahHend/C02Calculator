@@ -1,0 +1,15 @@
+server:
+  port: 8050
+spring:
+  data:
+    mongodb:
+      username: hend
+      password: hend
+      host: localhost
+      port: 27017
+      database: FootprintDB
+      authentication-database: admin
+
+application:
+  config:
+    company-url: http://localhost:8222/company

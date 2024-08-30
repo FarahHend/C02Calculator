@@ -1,0 +1,15 @@
+server:
+  port: 8055
+spring:
+  data:
+    mongodb:
+      username: hend
+      password: hend
+      host: localhost
+      port: 27017
+      database: CompanytDB
+      authentication-database: admin
+
+application:
+  config:
+    user-url: http://localhost:8222/user

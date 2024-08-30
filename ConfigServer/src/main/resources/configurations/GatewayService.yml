@@ -1,0 +1,25 @@
+server:
+  port: 8222
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: UserService
+          uri: lb:http://USERSERVICE
+          predicates:
+            - Path=/user/**
+        - id: CompanyService
+          uri: lb:http://COMPANYSERVICE
+          predicates:
+            - Path=/company/**
+        - id: FootprintService
+          uri: lb:http://FOOTPRINTSERVICE
+          predicates:
+            - Path=/footprint/create/**
+        - id: FileService
+          uri: lb:http://FILESERVICE
+          predicates:
+            - Path=/api/files/**
