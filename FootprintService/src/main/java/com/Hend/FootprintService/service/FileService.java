@@ -7,8 +7,6 @@ import com.Hend.FootprintService.repository.FileRepository;
 import com.Hend.FootprintService.repository.FootprintRepository;
 import com.itextpdf.kernel.events.IEventHandler;
 import com.itextpdf.kernel.events.PdfDocumentEvent;
-import com.Hend.CompanyService.entity.Company;
-import com.Hend.CompanyService.repository.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.itextpdf.kernel.geom.Rectangle;
 import com.itextpdf.kernel.pdf.PdfDocument;

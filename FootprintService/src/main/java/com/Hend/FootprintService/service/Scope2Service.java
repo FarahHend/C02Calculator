@@ -1,8 +1,5 @@
 package com.Hend.FootprintService.service;
 
-import com.Hend.CompanyService.entity.Company;
-import com.Hend.CompanyService.entity.UserResponse;
-import com.Hend.CompanyService.service.UserServiceClient;
 import com.Hend.FootprintService.entity.*;
 import com.Hend.FootprintService.repository.FootprintRepository;
 import feign.FeignException;

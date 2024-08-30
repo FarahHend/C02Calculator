@@ -1,9 +1,7 @@
 package com.Hend.FootprintService.controller;
 
-import com.Hend.CompanyService.entity.Company;
 import com.Hend.FootprintService.entity.*;
 import com.Hend.FootprintService.repository.FootprintRepository;
-import com.Hend.FootprintService.service.CompanyClientService;
 import com.Hend.FootprintService.service.CompanyServiceClient;
 import com.Hend.FootprintService.service.FileService;
 import com.Hend.FootprintService.service.Scope2Service;

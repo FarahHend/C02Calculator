@@ -1,6 +1,6 @@
 package com.Hend.FootprintService.repository;
 
-import com.Hend.CompanyService.entity.Company;
+
 import com.Hend.FootprintService.entity.Footprint;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
