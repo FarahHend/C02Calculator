@@ -1,0 +1,11 @@
+image:
+  repository: hendcontainerregistry.azurecr.io/companymicroservice
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 8081
+
+ingress:
+  enabled: false
